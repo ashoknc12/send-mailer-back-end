@@ -1,0 +1,24 @@
+{
+  "name": "sendemail",
+  "version": "1.0.0",
+  "description": "sending email through node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Subrat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "convert-excel-to-json": "^1.7.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "file-extension": "^4.0.5",
+    "multer": "^1.4.4",
+    "nodemailer": "^5.1.1",
+    "xls-to-json": "^2.1.0",
+    "xlsx-to-json": "^0.3.0"
+  }
+}
